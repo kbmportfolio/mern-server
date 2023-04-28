@@ -18,7 +18,7 @@ module.exports = {
     } catch (error) {
       console.error(error)
     }
-    _db = client.db("employees");
+    _db = client.db("mern");
   },
 
   getDb: function() {
